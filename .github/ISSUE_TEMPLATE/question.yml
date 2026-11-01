@@ -1,6 +1,7 @@
 name: Question
 description: Ask about the project, a feature or how something works.
 labels: ["question", "needs-triage"]
+type: Question
 body:
   - type: textarea
     id: question

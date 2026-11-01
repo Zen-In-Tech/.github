@@ -1,6 +1,7 @@
 name: Change request
 description: Change something that is already agreed, planned or delivered.
 labels: ["change-request", "needs-triage"]
+type: "Change request"
 body:
   - type: markdown
     attributes:
