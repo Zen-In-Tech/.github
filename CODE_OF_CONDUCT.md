@@ -6,4 +6,4 @@ In short: be respectful and constructive, assume good intent, and keep discussio
 
 ## Reporting
 
-Report unacceptable behavior to **zenintech.dev@gmail.com**. Every report is reviewed and kept confidential.
+Report unacceptable behavior to the organization owners. Clients: ask in your project portal for a private channel. Every report is reviewed and kept confidential.

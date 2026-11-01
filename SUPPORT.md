@@ -17,4 +17,3 @@ One topic per issue, please. Never post passwords, keys or personal data in issu
 ## Everyone else
 
 - Security issues: see [SECURITY.md](SECURITY.md).
-- Anything else: zenintech.dev@gmail.com

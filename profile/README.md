@@ -19,4 +19,4 @@ We are a software development studio. We build and maintain software for compani
 ## Contact
 
 Existing clients: open an issue in your project portal.
-Everyone else: zenintech.dev@gmail.com
+Security issues: see our [security policy](https://github.com/Zen-In-Tech/.github/blob/main/SECURITY.md).

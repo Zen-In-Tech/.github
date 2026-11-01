@@ -4,13 +4,13 @@
 
 Please do not report security issues in public issues, discussions or pull requests.
 
-Email **zenintech.dev@gmail.com** with:
+Report it privately on GitHub: [Security → Report a vulnerability](https://github.com/Zen-In-Tech/.github/security/advisories/new). Only the organization owners see the report. Include:
 
 - the affected repository, application or URL;
 - steps to reproduce or a proof of concept;
 - the impact you expect.
 
-If the repository has private vulnerability reporting enabled, you can also use **Security → Report a vulnerability** on GitHub.
+Clients can also report in their project portal.
 
 We will confirm receipt, investigate and keep you informed until the issue is resolved. Please give us reasonable time to fix it before any public disclosure.
 
