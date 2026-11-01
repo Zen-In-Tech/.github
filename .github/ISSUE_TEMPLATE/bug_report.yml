@@ -1,0 +1,53 @@
+name: Bug report
+description: Something is broken or does not work as expected.
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        One problem per issue, please. Do not include passwords, keys or personal data.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What you saw, including any error message.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open ...
+        2. Click ...
+        3. See the error
+    validations:
+      required: true
+  - type: input
+    id: where
+    attributes:
+      label: Where
+      description: Environment, page URL, app version, device and browser.
+      placeholder: "production, https://example.com/orders, Chrome 130 on macOS"
+  - type: dropdown
+    id: impact
+    attributes:
+      label: Impact
+      options:
+        - Blocker - work cannot continue
+        - High - important function broken, no workaround
+        - Medium - a workaround exists
+        - Low - cosmetic or minor
+    validations:
+      required: true
+  - type: textarea
+    id: attachments
+    attributes:
+      label: Screenshots, video or logs
+      description: Drag and drop files here.

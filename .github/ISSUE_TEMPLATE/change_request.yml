@@ -1,0 +1,57 @@
+name: Change request
+description: Change something that is already agreed, planned or delivered.
+labels: ["change-request", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        We estimate every change request and confirm the impact on scope, timeline and cost with you before work starts.
+  - type: textarea
+    id: what
+    attributes:
+      label: What should change
+      description: Current behavior or agreed scope, and the new one.
+      placeholder: |
+        Now: the report shows the last 30 days.
+        Needed: the user picks any date range.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why
+      description: The business reason. It helps us suggest the simplest way to do it.
+    validations:
+      required: true
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      options:
+        - Critical - blocks our business
+        - High - needed for the next release
+        - Medium - can wait for a later release
+        - Low - when there is time
+    validations:
+      required: true
+  - type: input
+    id: deadline
+    attributes:
+      label: Deadline
+      description: Date it must be live, and why, if there is a hard date.
+      placeholder: "2026-12-15, start of the sales campaign"
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: How we will both know it is done. One check per line.
+      placeholder: |
+        - [ ] The user can pick a start and end date
+        - [ ] The report total matches the selected range
+    validations:
+      required: true
+  - type: textarea
+    id: attachments
+    attributes:
+      label: Files, mockups or examples
+      description: Drag and drop files here.

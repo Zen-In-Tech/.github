@@ -1,0 +1,43 @@
+name: Feature request
+description: Suggest a new feature or an improvement.
+labels: ["feature", "needs-triage"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or goal
+      description: What do you want to achieve, and what gets in the way today?
+      placeholder: "Managers export orders by hand every Monday. It takes about an hour."
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: How you see it working. A rough idea is enough.
+    validations:
+      required: true
+  - type: input
+    id: users
+    attributes:
+      label: Who will use it
+      placeholder: "Sales managers, about 10 people"
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      options:
+        - High - needed for the next release
+        - Medium - this quarter
+        - Low - nice to have
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+  - type: textarea
+    id: attachments
+    attributes:
+      label: Examples, mockups or files
+      description: Drag and drop files here.
